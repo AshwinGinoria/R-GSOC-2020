@@ -13,7 +13,7 @@ result <- data.frame(
 )
 
 # Run Microbench For different Data Sizes
-for (i in c(10,100,1000,2000,3000,4000,5000,6000,7000,8000,9000,10000)) {
+for (i in c(10,100,1000)) {
 
     # Print i to see code progress
     print(i)
